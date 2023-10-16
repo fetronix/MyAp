@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/unitText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grading_calculator_for_8_units"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <!-- Eight EditText fields for unit marks -->
+    <EditText
+        android:id="@+id/unit1EditText"
+        android:layout_width="match_parent"
+        android:layout_below="@id/unitText"
+        android:layout_height="wrap_content"
+        android:hint="@string/unit_1_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit1EditText"
+        android:hint="@string/unit_2_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit3EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit2EditText"
+        android:hint="@string/unit_3_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit4EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit3EditText"
+        android:hint="@string/unit_4_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit5EditText"
+        android:layout_width="match_parent"
+        android:layout_below="@id/unit4EditText"
+        android:layout_height="wrap_content"
+        android:hint="@string/unit_5_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit6EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit5EditText"
+        android:hint="@string/unit_6_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit7EditText"
+        android:layout_below="@id/unit6EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unit_7_marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/unit8EditText"
+        android:layout_below="@id/unit7EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unit_8_marks"
+        android:inputType="number" />
+
+    <!-- (Repeat for unit2EditText to unit8EditText) -->
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit8EditText"
+        android:text="@string/calculate_grade"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text=""
+        android:textSize="28sp" />
+
+</RelativeLayout>

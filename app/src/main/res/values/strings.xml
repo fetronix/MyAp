@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Ap</string>
+    <string name="grading_calculator_for_8_units">Grading Calculator for 8 units</string>
+    <string name="unit_1_marks">Unit 1 Marks</string>
+    <string name="unit_2_marks">Unit 2 Marks</string>
+    <string name="unit_3_marks">Unit 3 Marks</string>
+    <string name="unit_4_marks">Unit 4 Marks</string>
+    <string name="unit_5_marks">Unit 5 Marks</string>
+    <string name="unit_6_marks">Unit 6 Marks</string>
+    <string name="unit_7_marks">Unit 7 Marks</string>
+    <string name="unit_8_marks">Unit 8 Marks</string>
+    <string name="calculate_grade">Calculate Grade</string>
+</resources>
